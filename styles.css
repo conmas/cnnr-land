@@ -6,12 +6,12 @@
 	line-height: 1.5;
 	font-size: 1.5em;
   }
-  
+
   div.main {
 	padding: 5em 8em 5em 8em;
 	background-color: #f1f1f1;
   }
-  
+
   h1 {
     font-size: 2.7em;
     line-height: 1.2em;
@@ -23,7 +23,7 @@
 	line-height: 1.2em;
 	font-weight: 700;
   }
-  
+
   p {
 	max-width: 80%;
   }
@@ -38,12 +38,12 @@
 	line-height: 1.5;
 	font-size: 1.5em;
   }
-  
+
   div.main {
 	padding: 5em 8em 5em 8em;
 	background-color: #f1f1f1;
   }
-  
+
   h1 {
     font-size: 2.7em;
     line-height: 1.2em;
@@ -65,12 +65,12 @@
 	line-height: 1.5;
 	font-size: 1em;
   }
-  
+
   div.main {
 	padding: 6em;
 	background-color: #f1f1f1;
   }
-  
+
   h1 {
     font-size: 2em;
     line-height: 1.2em;
@@ -92,12 +92,12 @@
 	line-height: 1.5;
 	font-size: 1em;
   }
-  
+
   div.main {
 	padding: 4em;
 	background-color: #f1f1f1;
   }
-  
+
   h1 {
     font-size: 2em;
     line-height: 1.2em;
@@ -109,7 +109,7 @@
 	line-height: 1.2em;
 	font-weight: 700;
   }
-} 
+}
 
 /* iPhone 8 Plus */
 @media only screen and (max-width: 600px) {
@@ -124,7 +124,7 @@
 	padding: 3.5em;
 	background-color: #f1f1f1;
   }
-  
+
   h1 {
     font-size: 1.5em;
     line-height: 1.2em;
@@ -151,7 +151,7 @@
 	padding: 3em;
 	background-color: #f1f1f1;
   }
-  
+
   h1 {
     font-size: 1.5em;
     line-height: 1.2em;
@@ -178,7 +178,7 @@
 	padding: 2.5em;
 	background-color: #f1f1f1;
   }
-  
+
   h1 {
     font-size: 1.5em;
     line-height: 1.2em;
@@ -206,11 +206,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	color: #00694d;
-}
-
-a:active {
+a:hover, a:active {
 	color: #00694d;
 }
 
@@ -218,21 +214,21 @@ svg {
 	display: inline-block;
 	width: 2em;
 	height: 2em;
-	background-size: 2em 2em;	
+	background-size: 2em 2em;
 	outline: none;
 	position: relative;
 	padding-right: 2em;
 }
 
 div.social {
-	display:inline-block;
+	display: inline-block;
 }
 
 svg.arrow {
 	display: inline;
 	width: 1.1em;
 	height: 1.1em;
-	background-size: 1.1em 1.1em;	
+	background-size: 1.1em 1.1em;
 	outline: none;
 	position: relative;
     top: 0.15em;
