@@ -1,0 +1,241 @@
+/* Widescreen Desktop */
+@media only screen and (min-width: 1200px) {
+  body {
+	padding: 1em;
+	font-family: -apple-system, SF UI, Helvetica Neue, Roboto, sans-serif;
+	line-height: 1.5;
+	font-size: 1.5em;
+  }
+  
+  div.main {
+	padding: 5em 8em 5em 8em;
+	background-color: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 2.7em;
+    line-height: 1.2em;
+	font-weight: 700;
+  }
+
+  h2 {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 700;
+  }
+  
+  p {
+	max-width: 80%;
+  }
+}
+
+
+/* Desktop */
+@media only screen and (max-width: 1199px) {
+  body {
+	padding: 1em;
+	font-family: -apple-system, SF UI, Helvetica Neue, Roboto, sans-serif;
+	line-height: 1.5;
+	font-size: 1.5em;
+  }
+  
+  div.main {
+	padding: 5em 8em 5em 8em;
+	background-color: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 2.7em;
+    line-height: 1.2em;
+	font-weight: 700;
+  }
+
+  h2 {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 700;
+  }
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 999px) {
+  body {
+	padding: 1em;
+	font-family: -apple-system, SF UI, Helvetica Neue, Roboto, sans-serif;
+	line-height: 1.5;
+	font-size: 1em;
+  }
+  
+  div.main {
+	padding: 6em;
+	background-color: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+	font-weight: 700;
+  }
+
+  h2 {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	font-weight: 700;
+  }
+}
+
+/* iPad */
+@media only screen and (max-width: 800px) {
+  body {
+	padding: 0.8em;
+	font-family: -apple-system, SF UI, Helvetica Neue, Roboto, sans-serif;
+	line-height: 1.5;
+	font-size: 1em;
+  }
+  
+  div.main {
+	padding: 4em;
+	background-color: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+	font-weight: 700;
+  }
+
+  h2 {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 700;
+  }
+} 
+
+/* iPhone 8 Plus */
+@media only screen and (max-width: 600px) {
+  body {
+	padding: 0.6em;
+	font-family: -apple-system, SF UI, Helvetica Neue, Roboto, sans-serif;
+	line-height: 1.5;
+	font-size: 0.9em;
+}
+
+  div.main {
+	padding: 3.5em;
+	background-color: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.2em;
+	font-weight: 700;
+  }
+
+  h2 {
+	font-size: 1.25em;
+	line-height: 1.2em;
+	font-weight: 700;
+  }
+}
+
+/* iPhone 8 */
+@media only screen and (max-width: 400px) {
+  body {
+	padding: 0.5em;
+	font-family: -apple-system, SF UI, Helvetica Neue, Roboto, sans-serif;
+	line-height: 1.5;
+	font-size: 0.8em;
+  }
+
+  div.main {
+	padding: 3em;
+	background-color: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.2em;
+	font-weight: 700;
+  }
+
+  h2 {
+	font-size: 1.25em;
+	line-height: 1.2em;
+	font-weight: 700;
+  }
+}
+
+/* iPhone SE */
+@media only screen and (max-width: 374px) {
+  body {
+	padding: 0.4em;
+	font-family: -apple-system, SF UI, Helvetica Neue, Roboto, sans-serif;
+	line-height: 1.5;
+	font-size: 0.75em;
+  }
+
+  div.main {
+	padding: 2.5em;
+	background-color: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.2em;
+	font-weight: 700;
+  }
+
+  h2 {
+	font-size: 1.25em;
+	line-height: 1.2em;
+	font-weight: 700;
+  }
+}
+
+img {
+	height: 5em;
+	width: 5em;
+	border-radius: 500px;
+	-webkitborder-radius: 500px;
+	outline: none;
+}
+
+a {
+	line-height: 1.5;
+	color: #00c490;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00694d;
+}
+
+a:active {
+	color:fuchsia;
+}
+
+svg {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	background-size: 2em 2em;	
+	outline: none;
+	position: relative;
+	padding-right: 2em;
+}
+
+div.social {
+	display:inline-block;
+}
+
+svg.arrow {
+	display: inline;
+	width: 1.1em;
+	height: 1.1em;
+	background-size: 1.1em 1.1em;	
+	outline: none;
+	position: relative;
+    top: 0.15em;
+    bottom: 0em;
+    padding: 0em;
+}
