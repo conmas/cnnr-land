@@ -23,6 +23,16 @@
 	line-height: 1.2em;
 	font-weight: 700;
   }
+  
+  svg {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	background-size: 2em 2em;
+	outline: none;
+	position: relative;
+	padding-right: 2em;
+  }
 
   p {
 	max-width: 80%;
@@ -55,6 +65,16 @@
 	line-height: 1.2em;
 	font-weight: 700;
   }
+  
+  svg {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	background-size: 2em 2em;
+	outline: none;
+	position: relative;
+	padding-right: 2em;
+  }
 }
 
 /* iPad Pro */
@@ -81,6 +101,16 @@
 	font-size: 1.2em;
 	line-height: 1.2em;
 	font-weight: 700;
+  }
+  
+  svg {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	background-size: 2em 2em;
+	outline: none;
+	position: relative;
+	padding-right: 2em;
   }
 }
 
@@ -109,6 +139,17 @@
 	line-height: 1.2em;
 	font-weight: 700;
   }
+
+  svg {
+	display: inline-block;
+	width: 1.8em;
+	height: 1.8em;
+	background-size: 1.8em 1.8em;
+	outline: none;
+	position: relative;
+	padding-right: 1.8em;
+  }
+  
 }
 
 /* iPhone 8 Plus */
@@ -136,6 +177,17 @@
 	line-height: 1.2em;
 	font-weight: 700;
   }
+  
+  svg {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	background-size: 1.5em 1.5em;
+	outline: none;
+	position: relative;
+	padding-right: 1.5em;
+  }
+  
 }
 
 /* iPhone 8 */
@@ -163,6 +215,17 @@
 	line-height: 1.2em;
 	font-weight: 700;
   }
+  
+  svg {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	background-size: 2em 2em;
+	outline: none;
+	position: relative;
+	padding-right: 2em;
+  }
+  
 }
 
 /* iPhone SE */
@@ -190,6 +253,17 @@
 	line-height: 1.2em;
 	font-weight: 700;
   }
+  
+  svg {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	background-size: 2em 2em;
+	outline: none;
+	position: relative;
+	padding-right: 2em;
+  }
+  
 } */
 
 img {
@@ -208,16 +282,6 @@ a {
 
 a:hover, a:active {
 	color: #00694d;
-}
-
-svg {
-	display: inline-block;
-	width: 2em;
-	height: 2em;
-	background-size: 2em 2em;
-	outline: none;
-	position: relative;
-	padding-right: 2em;
 }
 
 div.social {
