@@ -2,7 +2,7 @@
 @media only screen and (min-width: 1200px) {
   body {
 	padding: 1em;
-	font-family: -apple-system, Roboto, Helvetica Neue, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	line-height: 1.5;
 	font-size: 1.5em;
   }
@@ -34,7 +34,7 @@
 @media only screen and (max-width: 1199px) {
   body {
 	padding: 1em;
-	font-family: -apple-system, Roboto, Helvetica Neue, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	line-height: 1.5;
 	font-size: 1.5em;
   }
@@ -61,7 +61,7 @@
 @media only screen and (max-width: 999px) {
   body {
 	padding: 1em;
-	font-family: -apple-system, Roboto, Helvetica Neue, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	line-height: 1.5;
 	font-size: 1em;
   }
@@ -88,7 +88,7 @@
 @media only screen and (max-width: 800px) {
   body {
 	padding: 0.8em;
-	font-family: -apple-system, Roboto, Helvetica Neue, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	line-height: 1.5;
 	font-size: 1em;
   }
@@ -115,7 +115,7 @@
 @media only screen and (max-width: 600px) {
   body {
 	padding: 0.6em;
-	font-family: -apple-system, Roboto, Helvetica Neue, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	line-height: 1.5;
 	font-size: 0.9em;
 }
@@ -142,7 +142,7 @@
 /* @media only screen and (max-width: 400px) {
   body {
 	padding: 0.5em;
-	font-family: -apple-system, Roboto, Helvetica Neue, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	line-height: 1.5;
 	font-size: 0.8em;
   }
@@ -169,7 +169,7 @@
 /* @media only screen and (max-width: 374px) {
   body {
 	padding: 0.4em;
-	font-family: -apple-system, Roboto, Helvetica Neue, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	line-height: 1.5;
 	font-size: 0.75em;
   }
