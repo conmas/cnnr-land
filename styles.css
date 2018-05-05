@@ -114,25 +114,25 @@
 /* iPhone 8 Plus */
 @media only screen and (max-width: 600px) {
   body {
-	padding: 0.6em;
+	padding: 0.5em;
 	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	line-height: 1.5;
-	font-size: 0.9em;
+	font-size: 1em;
 }
 
   div.main {
-	padding: 3.5em;
+	padding: 2em;
 	background-color: #f1f1f1;
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1.75em;
     line-height: 1.2em;
 	font-weight: 700;
   }
 
   h2 {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	line-height: 1.2em;
 	font-weight: 700;
   }
