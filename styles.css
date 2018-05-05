@@ -139,7 +139,7 @@
 }
 
 /* iPhone 8 */
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
   body {
 	padding: 0.5em;
 	font-family: -apple-system, SF UI, Helvetica Neue, Roboto, sans-serif;
@@ -166,7 +166,7 @@
 }
 
 /* iPhone SE */
-@media only screen and (max-width: 374px) {
+/* @media only screen and (max-width: 374px) {
   body {
 	padding: 0.4em;
 	font-family: -apple-system, SF UI, Helvetica Neue, Roboto, sans-serif;
@@ -190,7 +190,7 @@
 	line-height: 1.2em;
 	font-weight: 700;
   }
-}
+} */
 
 img {
 	height: 5em;
@@ -211,7 +211,7 @@ a:hover {
 }
 
 a:active {
-	color:fuchsia;
+	color: #00694d;
 }
 
 svg {
