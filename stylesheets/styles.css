@@ -112,7 +112,7 @@
 	background-size: 2em 2em;
 	outline: none;
 	position: relative;
-	padding-right: 2em;
+	padding-right: 1.75em;
   }
 }
 
@@ -149,7 +149,7 @@
 	background-size: 1.8em 1.8em;
 	outline: none;
 	position: relative;
-	padding-right: 1.8em;
+	padding-right: 1.5em;
   }
   
 }
@@ -187,7 +187,7 @@
 	background-size: 1.5em 1.5em;
 	outline: none;
 	position: relative;
-	padding-right: 1.5em;
+	padding-right: 1em;
   }
   
 }
