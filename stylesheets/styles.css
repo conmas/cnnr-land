@@ -3,41 +3,31 @@
 /* Widescreen Desktop */
 @media only screen and (min-width: 1200px) {
   body {
-	padding: 1em;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-	line-height: 1.5;
-	font-size: 1.5em;
+    padding: 1em;
+    font-size: 1.5em;
   }
 
   div.main {
-	padding: 5em 8em 5em 8em;
-	background-color: #f1f1f1;
+    padding: 5em 8em 5em 8em;
+    background-color: #f1f1f1;
   }
 
   h1 {
-  font-size: 2.7em;
-  line-height: 1.2em;
-	font-weight: 700;
+    font-size: 2.7em;
   }
 
   h2 {
-	font-size: 2em;
-	line-height: 1.2em;
-	font-weight: 700;
+    font-size: 2em;
   }
 
   svg {
-	display: inline-block;
-	width: 2em;
-	height: 2em;
-	background-size: 2em 2em;
-	outline: none;
-	position: relative;
-	padding-right: 2em;
+    width: 2em;
+    height: 2em;
+    background-size: 2em 2em;
   }
 
   p {
-	max-width: 80%;
+    max-width: 80%;
   }
 }
 
@@ -46,8 +36,6 @@
 @media only screen and (max-width: 1199px) {
   body {
 	padding: 1em;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-	line-height: 1.5;
 	font-size: 1.5em;
   }
 
@@ -58,24 +46,16 @@
 
   h1 {
     font-size: 2.7em;
-    line-height: 1.2em;
-	font-weight: 700;
   }
 
   h2 {
 	font-size: 2em;
-	line-height: 1.2em;
-	font-weight: 700;
   }
 
   svg {
-	display: inline-block;
 	width: 2em;
 	height: 2em;
 	background-size: 2em 2em;
-	outline: none;
-	position: relative;
-	padding-right: 2em;
   }
 }
 
@@ -83,8 +63,6 @@
 @media only screen and (max-width: 999px) {
   body {
 	padding: 1em;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-	line-height: 1.5;
 	font-size: 1em;
   }
 
@@ -95,24 +73,16 @@
 
   h1 {
     font-size: 2em;
-    line-height: 1.2em;
-	font-weight: 700;
   }
 
   h2 {
 	font-size: 1.2em;
-	line-height: 1.2em;
-	font-weight: 700;
   }
 
   svg {
-	display: inline-block;
 	width: 2em;
 	height: 2em;
 	background-size: 2em 2em;
-	outline: none;
-	position: relative;
-	padding-right: 1.75em;
   }
 }
 
@@ -120,8 +90,6 @@
 @media only screen and (max-width: 800px) {
   body {
 		padding: 0.8em;
-		font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-		line-height: 1.5;
 		font-size: 1em;
 	}
 
@@ -130,26 +98,14 @@
 	background-color: #f1f1f1;
   }
 
-  h1 {
+  h1, h2 {
 		font-size: 2em;
-		line-height: 1.2em;
-		font-weight: 700;
-	}
-
-	h2 {
-		font-size: 2em;
-		line-height: 1.2em;
-		font-weight: 700;
 	}
 
   svg {
-	display: inline-block;
 	width: 1.8em;
 	height: 1.8em;
 	background-size: 1.8em 1.8em;
-	outline: none;
-	position: relative;
-	padding-right: 1.5em;
   }
 
 }
@@ -158,8 +114,6 @@
 @media only screen and (max-width: 600px) {
   body {
 	padding: 0.5em;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-	line-height: 1.5;
 	font-size: 1em;
 }
 
@@ -170,29 +124,39 @@
 
   h1 {
   font-size: 1.75em;
-  line-height: 1.2em;
-	font-weight: 700;
   }
 
   h2 {
 	font-size: 1.5em;
-	line-height: 1.2em;
-	font-weight: 700;
   }
 
   svg {
-	display: inline-block;
 	width: 1.5em;
 	height: 1.5em;
 	background-size: 1.5em 1.5em;
-	outline: none;
-	position: relative;
 	padding-right: 1em;
   }
 
 }
 
 /* * * * * * * * * * END MEDIA QUERIES * * * * * * * * * */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+svg {
+  display: inline-block;
+  outline: none;
+  position: relative;
+  padding-right: 1.5em;
+}
 
 img.headshot {
 	height: 5em;
@@ -223,17 +187,12 @@ svg.arrow {
 	background-size: 1.1em 1.1em;
 	outline: none;
 	position: relative;
-    top: 0.15em;
-    bottom: 0em;
-    padding: 0em;
+  top: 0.15em;
+  bottom: 0em;
+  padding: 0em;
 }
 
-div.cta {
-	padding: 2em 0em 1em 0em;
-}
-
-a.cta {
-	display: inline-block;
+/* button {
 	background: #00c490;
 	color: white;
 	text-align: center;
@@ -242,17 +201,19 @@ a.cta {
 	font-weight: 700;
 	height: 2.5em;
 	width: 15em;
-	line-height: 2.5em;
-    border-radius: 1000px;
-    text-decoration: none;
+  border-radius: 1000px;
+  text-decoration: none;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
 }
 
-a.cta:hover, a.cta:focus, a.cta:active {
+button:hover, button:focus, button:active {
 	background: #00694d;
 	color: white;
-	}
+}
 
-/* p.footer {
+p.footer {
 	color: #a4a4a4;
 	padding-left: 8em;
 	font-size: x-small;
