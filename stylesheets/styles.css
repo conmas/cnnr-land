@@ -206,7 +206,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover, a:active {
+a:hover, a:focus, a:active {
 	color: #00694d;
 }
 
@@ -225,6 +225,30 @@ svg.arrow {
     bottom: 0em;
     padding: 0em;
 }
+
+div.cta {
+	padding: 2em 0em 1em 0em;
+}
+
+a.cta {
+	display: inline-block;
+	background: #00c490;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.25em;
+	font-weight: 700;
+	height: 2.5em;
+	width: 15em;
+	line-height: 2.5em;
+    border-radius: 1000px;
+    text-decoration: none;
+}
+
+a.cta:hover, a.cta:focus, a.cta:active {
+	background: #00694d;
+	color: white;
+	}
 
 /* p.footer {
 	color: #a4a4a4;
