@@ -9,7 +9,6 @@
 
   div.main {
     padding: 5em 8em 5em 8em;
-    background-color: #f1f1f1;
   }
 
   h1 {
@@ -20,7 +19,7 @@
     font-size: 2em;
   }
 
-  svg {
+  svg, object.icons {
     width: 2em;
     height: 2em;
     background-size: 2em 2em;
@@ -41,7 +40,6 @@
 
   div.main {
 	padding: 5em 8em 5em 8em;
-	background-color: #f1f1f1;
   }
 
   h1 {
@@ -52,7 +50,7 @@
 	font-size: 2em;
   }
 
-  svg {
+  svg, object.icons {
 	width: 2em;
 	height: 2em;
 	background-size: 2em 2em;
@@ -68,7 +66,6 @@
 
   div.main {
 	padding: 6em;
-	background-color: #f1f1f1;
   }
 
   h1 {
@@ -79,7 +76,7 @@
 	font-size: 1.2em;
   }
 
-  svg {
+  svg, object.icons {
 	width: 2em;
 	height: 2em;
 	background-size: 2em 2em;
@@ -95,14 +92,13 @@
 
   div.main {
 	padding: 4em;
-	background-color: #f1f1f1;
   }
 
   h1, h2 {
 		font-size: 2em;
 	}
 
-  svg {
+  svg, object.icons {
 	width: 1.8em;
 	height: 1.8em;
 	background-size: 1.8em 1.8em;
@@ -119,7 +115,6 @@
 
   div.main {
 	padding: 2em;
-	background-color: #f1f1f1;
   }
 
   h1 {
@@ -130,7 +125,7 @@
 	font-size: 1.5em;
   }
 
-  svg {
+  svg, object.icons {
 	width: 1.5em;
 	height: 1.5em;
 	background-size: 1.5em 1.5em;
@@ -142,8 +137,12 @@
 /* * * * * * * * * * END MEDIA QUERIES * * * * * * * * * */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, SF Pro Display, Roboto, Helvetica Neue, sans-serif;
   line-height: 1.5;
+}
+
+div.main {
+  background-color: #f1f1f1;
 }
 
 h1, h2 {
@@ -151,14 +150,7 @@ h1, h2 {
   font-weight: 700;
 }
 
-svg {
-  display: inline-block;
-  outline: none;
-  position: relative;
-  padding-right: 1.5em;
-}
-
-img.headshot {
+.headshot {
 	height: 5em;
 	width: 5em;
 	border-radius: 500px;
@@ -167,7 +159,6 @@ img.headshot {
 }
 
 a {
-	line-height: 1.5;
 	color: #00c490;
 	text-decoration: none;
 }
@@ -176,11 +167,21 @@ a:hover, a:focus, a:active {
 	color: #00694d;
 }
 
-div.icons {
+.icons {
 	display: inline-block;
 }
 
-svg.arrow {
+/* object.get-in-touch {
+  position: relative;
+  padding-right: 1.5em;
+} */
+
+svg, object.icons {
+  position: relative;
+  padding-right: 1.5em;
+}
+
+.arrow {
 	display: inline;
 	width: 1.1em;
 	height: 1.1em;
@@ -191,30 +192,3 @@ svg.arrow {
   bottom: 0em;
   padding: 0em;
 }
-
-/* button {
-	background: #00c490;
-	color: white;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 1.25em;
-	font-weight: 700;
-	height: 2.5em;
-	width: 15em;
-  border-radius: 1000px;
-  text-decoration: none;
-  border: none;
-  padding: 15px 25px;
-  cursor: pointer;
-}
-
-button:hover, button:focus, button:active {
-	background: #00694d;
-	color: white;
-}
-
-p.footer {
-	color: #a4a4a4;
-	padding-left: 8em;
-	font-size: x-small;
-} */
