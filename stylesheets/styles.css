@@ -19,10 +19,11 @@
     font-size: 2em;
   }
 
-  svg, object.icons {
+  svg {
     width: 2em;
     height: 2em;
     background-size: 2em 2em;
+    padding-right: 1.5em;
   }
 
   p {
@@ -34,12 +35,12 @@
 /* Desktop */
 @media only screen and (max-width: 1199px) {
   body {
-	padding: 1em;
-	font-size: 1.5em;
+	  padding: 1em;
+	  font-size: 1.5em;
   }
 
   div.main {
-	padding: 5em 8em 5em 8em;
+	   padding: 5em 8em 5em 8em;
   }
 
   h1 {
@@ -47,25 +48,31 @@
   }
 
   h2 {
-	font-size: 2em;
+    font-size: 2em;
   }
 
-  svg, object.icons {
-	width: 2em;
-	height: 2em;
-	background-size: 2em 2em;
+  svg {
+    width: 2em;
+    height: 2em;
+    background-size: 2em 2em;
+    padding-right: 1.5em;
   }
+
+  p {
+    max-width: 80%;
+  }
+
 }
 
 /* iPad Pro */
 @media only screen and (max-width: 999px) {
   body {
-	padding: 1em;
-	font-size: 1em;
+    padding: 1em;
+    font-size: 1em;
   }
 
   div.main {
-	padding: 6em;
+    padding: 6em;
   }
 
   h1 {
@@ -73,13 +80,14 @@
   }
 
   h2 {
-	font-size: 1.2em;
+    font-size: 1.2em;
   }
 
-  svg, object.icons {
-	width: 2em;
-	height: 2em;
-	background-size: 2em 2em;
+  svg {
+    width: 2em;
+    height: 2em;
+    background-size: 2em 2em;
+    padding-right: 1.5em;
   }
 }
 
@@ -91,17 +99,22 @@
 	}
 
   div.main {
-	padding: 4em;
+    padding: 4em;
   }
 
-  h1, h2 {
+  h1 {
 		font-size: 2em;
 	}
 
-  svg, object.icons {
-	width: 1.8em;
-	height: 1.8em;
-	background-size: 1.8em 1.8em;
+  h2 {
+		font-size: 1.75em;
+  }
+
+  svg {
+    width: 1.8em;
+    height: 1.8em;
+    background-size: 1.8em 1.8em;
+    padding-right: 1.25em;
   }
 
 }
@@ -109,27 +122,27 @@
 /* iPhone */
 @media only screen and (max-width: 600px) {
   body {
-	padding: 0.5em;
-	font-size: 1em;
+    padding: 0.5em;
+    font-size: 1em;
 }
 
   div.main {
-	padding: 2em;
+    padding: 2em;
   }
 
   h1 {
-  font-size: 1.75em;
+    font-size: 1.75em;
   }
 
   h2 {
-	font-size: 1.5em;
+    font-size: 1.5em;
   }
 
-  svg, object.icons {
-	width: 1.5em;
-	height: 1.5em;
-	background-size: 1.5em 1.5em;
-	padding-right: 1em;
+  svg {
+    width: 1.5em;
+    height: 1.5em;
+    background-size: 1.5em 1.5em;
+    padding-right: 1em;
   }
 
 }
@@ -154,31 +167,21 @@ h1, h2 {
 	height: 5em;
 	width: 5em;
 	border-radius: 500px;
-	-webkitborder-radius: 500px;
+	-webkit-border-radius: 500px;
 	outline: none;
 }
 
 a {
 	color: #00c490;
 	text-decoration: none;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
 }
 
 a:hover, a:focus, a:active {
 	color: #00694d;
-}
-
-.icons {
-	display: inline-block;
-}
-
-/* object.get-in-touch {
-  position: relative;
-  padding-right: 1.5em;
-} */
-
-svg, object.icons {
-  position: relative;
-  padding-right: 1.5em;
 }
 
 .arrow {
