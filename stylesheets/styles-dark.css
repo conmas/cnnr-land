@@ -4,6 +4,7 @@
   body {
     padding: 1em;
     font-size: 1.5em;
+    background: url(../images/dark-background.png);
   }
 
   div.main {
@@ -39,8 +40,9 @@
 
 @media only screen and (max-width: 1199px) /* Desktop */ {
   body {
-	  padding: 1em;
-	  font-size: 1.5em;
+    padding: 1em;
+    font-size: 1.5em;
+    background: url(../images/dark-background.png);
   }
 
   div.main {
@@ -78,6 +80,7 @@
   body {
     padding: 1em;
     font-size: 1em;
+    background: url(../images/dark-background.png);
   }
 
   div.main {
@@ -109,8 +112,9 @@
 
 @media only screen and (max-width: 800px) /* iPad */ {
   body {
-		padding: 0.8em;
+    padding: 0.8em;
 		font-size: 1em;
+    background: url(../images/dark-background.png);
 	}
 
   div.main {
@@ -144,6 +148,7 @@
   body {
     padding: 0.5em;
     font-size: 1em;
+    background: url(../images/dark-background-mobile.png);
   }
 
   div.main {
@@ -175,15 +180,14 @@
 
 /* * * * * * * * * * END MEDIA QUERIES * * * * * * * * * */
 
-html {
+html, body {
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
-}
-
-body {
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, SF Pro Display, Roboto, Helvetica Neue, sans-serif;
   line-height: 1.5;
-  background: url(../images/dark-background.png);
+  background-color: black;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
