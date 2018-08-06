@@ -28,6 +28,13 @@
   p {
     max-width: 80%;
   }
+
+  p.toggleLabel {
+    font-size: 16px;
+    top: 3.75em;
+    right: 9em;
+  }
+
 }
 
 @media only screen and (max-width: 1199px) /* Desktop */ {
@@ -59,6 +66,12 @@
     max-width: 80%;
   }
 
+  p.toggleLabel {
+    font-size: 16px;
+    top: 3.75em;
+    right: 9em;
+  }
+
 }
 
 @media only screen and (max-width: 999px) /* iPad Pro */ {
@@ -85,6 +98,13 @@
     background-size: 2em 2em;
     padding-right: 1.5em;
   }
+
+  p.toggleLabel {
+    font-size: 14px;
+    top: 3em;
+    right: 9em;
+  }
+
 }
 
 @media only screen and (max-width: 800px) /* iPad */ {
@@ -110,6 +130,12 @@
     height: 1.8em;
     background-size: 1.8em 1.8em;
     padding-right: 1.25em;
+  }
+
+  p.toggleLabel {
+    font-size: 14px;
+    top: 3em;
+    right: 9em;
   }
 
 }
@@ -139,6 +165,12 @@
     padding-right: 1em;
   }
 
+  p.toggleLabel {
+    font-size: 14px;
+    top: 2.9em;
+    right: 9em;
+  }
+
 }
 
 /* * * * * * * * * * END MEDIA QUERIES * * * * * * * * * */
@@ -155,7 +187,11 @@ body {
 
 div.main {
   background-color: black;
-  color: #FFFFFF;
+  color: white;
+}
+
+p.toggleLabel {
+  position: absolute;
 }
 
 label.switch {
