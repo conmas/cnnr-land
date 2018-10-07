@@ -1,0 +1,161 @@
+@import "mixins";
+@import "colors";
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+@charset "UTF-8";
+
+$font-stack: -apple-system, BlinkMacSystemFont, 'Work Sans', sans-serif;
+
+body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+	background-color: $gray;
+	font-family: $font-stack;
+	color: white;
+	line-height: 1.2em;
+	@include breakpoint(imac) {
+		padding: 3em 5em 3em 5em;
+		font-size: 1.5em;
+	}
+	@include breakpoint(macbook) {
+		padding: 2em 4em 2em 4em;
+		font-size: 1.25em;
+	}
+	@include breakpoint(ipadpro) {
+		padding: 3em;
+		font-size: 1em;
+	}
+	@include breakpoint(iphone) {
+		padding: 2em;
+		font-size: 0.75em;
+	}
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 2.7em;
+	@include breakpoint(ipadpro) {
+		font-size: 2em;
+	}
+	@include breakpoint(iphone) {
+		font-size: 1.75em;
+	}
+}
+
+h2 {
+	color: $lightgray;
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 1.2em;
+	@include breakpoint(ipadpro) {
+		font-size: 1.75em;
+		line-height: 1.2em;
+	}
+	@include breakpoint(ipad) {
+		font-size: 1.5em;
+		line-height: 1.2em;
+	}
+}
+
+section {
+	padding: 3em 0em 3em 0em;
+}
+
+div.service-blocks {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+	padding: 1em 0em 1em 0em;
+	@include breakpoint(imac) {
+		flex-direction: row wrap;
+	}
+	@include breakpoint(ipad) {
+		flex-direction: column;
+	}
+}
+
+div.service {
+	background-color: $darkgray;
+	margin: 0em 1em 0em 0em;
+	padding: 0em 1em 0em 1em;
+	font-size: 1em;
+	line-height: 1.2em;
+	h3 {
+		font-weight: 700;
+	}
+	p {
+		color: $lightgray;
+	}
+	@include breakpoint(ipad) {
+		margin: 0em 0em 1em 0em;
+		padding: 0em 1em 0em 1em;
+	}
+}
+
+form, fieldset {
+	border: none;
+	width: 100%;
+	label {
+		position: absolute;
+		top: 0.77em;
+		font-size: 1.45em;
+		color: $lightgray;
+		transform-origin: left;
+		transition: all 0.3s ease;
+	}
+	input {
+		font-size: 1.45em;
+		width: 100%;
+		height: 2.5em;
+		border: none;
+		background-color: $gray;
+		color: white;
+		&:focus {
+			outline: none;
+		}
+		&:focus ~ label, &:valid ~ label {
+			color: $accentcolor;
+			top: 0;
+			transform: scale(0.6, 0.6);
+		}
+		&:invalid:focus ~ label {
+			top: 0;
+			transform: scale(0.6, 0.6);
+		}
+		&:focus ~ .underline {
+			background-position: 0 0;
+		}
+	}
+	.underline {
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(to right, $accentcolor 50%, transparent 50%);
+		background-color: $lightgray;
+		background-size: 200% 100%;
+		background-position: 100% 0;
+		transition: all 0.6s ease;
+	}
+	button {
+		position: relative;
+		font-size: 1.5em;
+		padding: 1em 0em 1em 0em;
+		width: 100%;
+		height: 2em;
+		color: black;
+		display: block;
+		background-color: $accentcolor;
+		border: none;
+		border-radius: .5em;
+		transition: all 0.6s ease;
+		&:hover, &:focus {
+			background-color: $accentcolormedium;
+			color: white;
+		}
+		&:active {
+			background-color: $accentcolordark;
+			color: white;
+		}
+	}
+}
